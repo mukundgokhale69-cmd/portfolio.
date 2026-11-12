@@ -1,0 +1,110 @@
+html {
+    background: #111111;
+}
+
+body {
+    background: #111111;
+    color: #ffffff;
+}
+
+html::before,
+html::after {
+    display: none;
+}
+
+header {
+    background: #111111;
+}
+
+header img {
+    border: 3px solid #ffffff;
+    box-shadow: 0 0 20px #555555;
+}
+
+h1 {
+    background: none;
+    color: #ffffff;
+    -webkit-text-fill-color: #ffffff;
+}
+
+p {
+    color: #bdbdbd;
+}
+
+nav a {
+    color: #ffffff;
+    background: none;
+}
+
+nav a:hover {
+    color: #999999;
+}
+
+h2 {
+    color: #ffffff;
+    border-bottom: 2px solid #777777;
+}
+
+h3 {
+    color: #d4d4d4;
+}
+
+#education {
+    border-left: 2px solid #777777;
+}
+
+#education article {
+    background: #1c1c1c;
+    border: 1px solid #383838;
+}
+
+#education article::before {
+    background: #ffffff;
+}
+
+#skills li {
+    background: #222222;
+    color: #ffffff;
+    border: 1px solid #444444;
+}
+
+#skills li:hover {
+    background: #ffffff;
+    color: #111111;
+}
+
+#projects article {
+    background: #1c1c1c;
+    border: 1px solid #383838;
+}
+
+#projects article:hover {
+    background: #292929;
+    box-shadow: 0 10px 25px #000000;
+}
+
+address {
+    background: #1c1c1c;
+    border: 1px solid #383838;
+}
+
+address a,
+a {
+    color: #d4d4d4;
+}
+
+address a:hover {
+    color: #ffffff;
+}
+
+footer {
+    background: #111111;
+    color: #999999;
+    border-top: 1px solid #383838;
+}
+
+@supports (animation-timeline: scroll()) {
+    body::before {
+        background: #ffffff;
+    }
+}
